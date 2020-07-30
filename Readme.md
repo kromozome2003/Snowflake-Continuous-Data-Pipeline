@@ -103,7 +103,7 @@ docker-compose exec connect bash -c 'kafka-topics --create --topic users --parti
 
 ### Let's deploy Snowflake Kafka Connector for Confluent in the `connect` container
 ```
-docker-compose exec connect bash -c 'confluent-hub install --no-prompt --verbose snowflakeinc/snowflake-kafka-connector:1.2.3'
+docker-compose exec connect bash -c 'confluent-hub install --no-prompt --verbose snowflakeinc/snowflake-kafka-connector:1.4.2'
 ```
 
 ### Restart the Kafka-Connect container after the install
